@@ -15,13 +15,13 @@ class CreateCurrencyTable extends Migration
     {
         Schema::create('currency', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('valuteID');
+            $table->string('valuteID');
             $table->integer('numCode');
             $table->string('сharCode');
             $table->string('nominal');
             $table->string('name');
             $table->string('value');
-            $table->timestamp('date');
+            $table->date('date');
             $table->timestamps();
         });
     }

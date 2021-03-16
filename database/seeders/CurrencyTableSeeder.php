@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Currency;
 use Illuminate\Database\Seeder;
 
-class CurenncyTableSeeder extends Seeder
+class CurrencyTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

@@ -15,7 +15,7 @@ const Form = () => {
         <form className="form-horizontal" >
 
             <div className="form-group">
-                <div className="col-sm-10">g
+                <div className="col-sm-10">
                     <input type="text" name="email"  className="form-control" ref={register} placeholder="Логин" />
                 </div>
             </div>
