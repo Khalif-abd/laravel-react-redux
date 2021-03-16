@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.form form {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.dateFrom, .dateTo {
+    margin: 5px;
+    display: inline-block;
+}
+
